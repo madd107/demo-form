@@ -1,0 +1,12 @@
+.col-lf {
+  height: 100%;
+}
+.col-rt {
+  height: 100%;
+}
+.row-head {
+  height: 10%;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-left: 15px;
+}

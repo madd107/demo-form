@@ -1,0 +1,106 @@
+.wrapper{
+    margin: 0 auto;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.slogan{
+    width: 96%;
+    height: 10%;
+    background-color:gray;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    width: 96%;
+    height: 20%;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation{
+    width: 96%;
+    height: 5%;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.n1{
+    width: 24%;
+    height: 100%;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.n2{
+    width: 24%;
+    height: 100%;
+    background-color:gray;
+}
+.n3{
+    width: 24%;
+    height: 100%;
+    background-color:gray;
+}
+.n4{
+    width: 24%;
+    height: 100%;
+    background-color:gray;
+}
+.main{
+    width: 96%;
+    height: 40%;
+    /* background-color:gray; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.about{
+    width: 53%;
+    height: 100%;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quick{
+    width: 45%;
+    height: 100%;
+    /* background-color:gray; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.s1{
+    width: 100%;
+    height: 48%;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s2{
+    width: 100%;
+    height: 48%;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    width: 96%;
+    height: 20%;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+
+}

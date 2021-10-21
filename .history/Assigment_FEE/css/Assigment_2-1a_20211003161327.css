@@ -1,0 +1,19 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  height: 540px;
+  background-color: rgb(231, 148, 40);
+  display: flex;
+}
+.about {
+  margin: 0 auto;
+  width: 25%;
+  height: 100%;
+  background-color: cornflowerblue;
+}
+.plans {
+  margin: 0 auto;
+  width: 25%;
+  height: 100%;
+  background-color: cornsilk;
+}

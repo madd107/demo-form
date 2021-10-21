@@ -1,0 +1,154 @@
+.wrapper {
+  margin: auto 0;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  margin: auto 0;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.header.img {
+  width: 10%;
+  height: 100%;
+}
+.header.img img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.header.content {
+  margin: auto 0 0;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: monospace;
+  font-weight: lighter;
+  color: #2d3c49;
+}
+.header.content.p1 {
+  width: 100%;
+  height: 70%;
+}
+.header.content.p2 {
+  width: 100%;
+  height: 30%;
+}
+.line {
+  margin: 1.5em 0 1.8em 0;
+  width: 100%;
+  height: 5px;
+  background-color: #7d97ad;
+  border-radius: 2.5em;
+}
+.contentbody {
+  margin: auto 0;
+  width: 100%;
+  height: 60%;
+}
+.contentbody img {
+  margin: 0 0 1.5em 0;
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  width: 100%;
+  height: 480px;
+}
+.footer.title {
+  margin: 10px 0;
+  width: 100%;
+  height: 5%;
+  font-size: 25px;
+  color: #7d97ad;
+}
+.footer.content {
+  width: 100%;
+  height: 93%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer.content.c1 {
+  width: 32.5%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.footer.content.c1.image {
+  width: 100%;
+  height: 100%;
+}
+.footer.content.c1.image img {
+  width: 100%;
+  height: 100%;
+}
+.footer.content.c1.link {
+  width: 100%;
+  height: 20%;
+}
+.footer.content.c1.link h2 {
+  width: 100%;
+  margin: auto 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer.content.c1.link a {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 100%;
+    height: 480px;
+    display: none;
+    flex-direction: column;
+  }
+  .footer.title {
+    margin: 10px 0;
+    width: 100%;
+    height: 5%;
+    font-size: 25px;
+    color: #7d97ad;
+  }
+  .footer.content {
+    width: 75%;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer.content.c1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer.content.c1.image {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+  .footer.content.c1.image img {
+    width: 100%;
+    height: 100%;
+  }
+  .footer.content.c1.link {
+    width: 100%;
+    height: 20%;
+  }
+  .footer.content.c1.link h2 {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .footer.content.c1.link a {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}

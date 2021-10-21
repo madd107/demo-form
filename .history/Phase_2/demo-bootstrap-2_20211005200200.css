@@ -1,0 +1,32 @@
+.other-1 {
+  height: 100px;
+  background-color: bisque;
+}
+.other-2 {
+  height: 100px;
+  background-color: blueviolet;
+}
+.menu {
+  height: 50px;
+  background-color: burlywood;
+}
+.menu-content {
+  height: 100%;
+  background-color: cadetblue;
+}
+.bs-row {
+  height: 500px;
+  background-color: coral;
+}
+.col-first {
+  height: 100%;
+  background-color: cornflowerblue;
+}
+.col-second {
+  height: 100%;
+  background-color: crimson;
+}
+.col-three {
+  height: 100%;
+  background-color: darkblue;
+}

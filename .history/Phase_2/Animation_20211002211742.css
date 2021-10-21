@@ -1,0 +1,45 @@
+.box {
+  width: 200px;
+  height: 200px;
+  transition-property: border-radius, background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  background-color: violet;
+}
+.box:hover {
+  border-radius: 50%;
+  background-color: tomato;
+}
+.big-box {
+  margin: 50px auto;
+  width: 100%;
+  height: 200px;
+  background-color: turquoise;
+  position: absolute;
+}
+.big-box .small-box {
+  width: 100px;
+  height: 50%;
+  position: relative;
+}
+.small-box.small-1 {
+  background-color: yellow;
+  transition: all 0.5s ease-in;
+  position: relative;
+  height: 50%;
+}
+.small-box.small-1:hover {
+  background-color: cadetblue;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+}
+.small-box.small-2 {
+  background-color: brown;
+  transition: all 5s ease-in-out;
+  position: relative;
+  height: 50%;
+}
+.big-box .small-box.small-2:hover {
+  transform: translate(calc(100vw - 105px));
+  border-radius: 50%;
+}

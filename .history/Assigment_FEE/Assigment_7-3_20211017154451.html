@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Bootstrap/css/all.css" />
+    <link rel="stylesheet" href="css/Assigment_7-3.css" />
+  </head>
+  <body>
+    <div class="container-fluid mt-5" style="height: 640px">
+      <div class="container-fluid" style="height: 100%">
+        <div class="row mx-2" style="height: 100%">
+          <div class="col mt-4 mx-2 col-lf">
+            <div class="row row-head">Personal Info</div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="first-n"
+                    aria-describedby="helpId"
+                    placeholder="First Name"
+                  />
+                  <small id="first-nError" class="text-danger"></small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="last-n"
+                    aria-describedby="helpId"
+                    placeholder="Last Name"
+                  />
+                  <small id="last-nError" class="text-danger"></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">Email</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="mail"
+                    aria-describedby="helpId"
+                    placeholder="Email"
+                  />
+                  <small id="mailError" class="text-danger"></small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">Phone</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    name=""
+                    id="fone"
+                    aria-describedby="helpId"
+                    placeholder="Phone"
+                  />
+                  <small id="phoneError" class="text-danger"></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="address"
+                    aria-describedby="helpId"
+                    placeholder="34/15 Thi Sach"
+                  />
+                  <small id="addrError" class="text-danger"></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">City</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="city"
+                    aria-describedby="helpId"
+                    placeholder="Da Nang"
+                  />
+                  <small id="cityError" class="text-danger"></small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="form-group">
+                      <label class="font-weight-bold" for="">State</label>
+                      <select class="form-control" name="" id="state">
+                        <option selected>Choose...</option>
+                        <option value="hai-chau">Hai Chau</option>
+                        <option value="hoa-khanh">Hoa Khanh</option>
+                        <option value="thanh-khe">Thanh Khe</option>
+                        <option value="son-tra">Son Tra</option>
+                        <option value="lien-chieu">Lien Chieu</option>
+                        <option value="ngu-hanh-son">Ngu Hanh Son</option>
+                        <option value="hoa-vang">Hoa Vang</option>
+                        <option value="hoang-sa">Hoang Sa</option>
+                      </select>
+                      <small id="stateError" class="text-danger"></small>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="form-group">
+                      <label class="font-weight-bold" for="">Zip Code</label>
+                      <input
+                        type="number"
+                        class="form-control"
+                        name=""
+                        id="zip-code"
+                        aria-describedby="helpId"
+                        placeholder=""
+                      />
+                      <small id="zip-codeError" class="text-danger"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row flex-column pl-3">
+              <div class="form-check form-check-inline">
+                <label for="checkout" class="form-check-label font-weight-bold">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="checkout"
+                    id="check-out"
+                    value="yes"
+                  />
+                  Check me out
+                </label>
+              </div>
+              <small id="checkError" class="text-danger"></small>
+            </div>
+            <form action="">
+              <div class="row pl-3 mt-3">
+                <!-- <a
+                  name=""
+                  id="sign-in"
+                  class="btn btn-primary"
+                  href="#"
+                  role="button"
+                  >Sign in</a
+                > -->
+                <button id="sign-in" type="submit" class="btn btn-primary">
+                  Sign in
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col mt-4 mx-2 col-rt">
+            <div class="row row-head">Payment Info</div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">Name on Card</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="name-on-card"
+                    aria-describedby="helpId"
+                    placeholder="Dang Tien Dat"
+                  />
+                  <small id="name-on-cardError" class="text-danger"></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for=""
+                    >Credit card Number</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    name=""
+                    id="cc-number"
+                    aria-describedby="helpId"
+                    placeholder="33-27-46-55555"
+                  />
+                  <small id="cc-numberError" class="text-danger"></small>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">Exp Month</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    name=""
+                    id="exp-month"
+                    aria-describedby="helpId"
+                    placeholder="07"
+                  />
+                  <small id="exp-monthError" class="text-danger"></small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label for="">Exp Year</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    name=""
+                    id="exp-year"
+                    aria-describedby="helpId"
+                    placeholder="2021"
+                  />
+                  <small id="exp-yearError" class="text-danger"></small>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label class="font-weight-bold" for="">CVV</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    name=""
+                    id="cvv"
+                    aria-describedby="helpId"
+                    placeholder="999"
+                  />
+                  <small id="cvvError" class="text-danger"></small>
+                </div>
+              </div>
+            </div>
+            <div class="row flex-column justify-content-between pl-3">
+              <label class="font-weight-bold" for="">Accepted Cards</label>
+              <div class="row pl-3">
+                <i class="fab fa-cc-visa fa-3x mr-2 mau-1"></i>
+                <i class="fab fa-cc-mastercard fa-3x mr-2 ml-2 mau-2"></i>
+                <i class="fab fa-cc-discover fa-3x ml-2 mau-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <table class="table">
+        <thead>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Zip Code</th>
+          <th>Name On Card</th>
+          <th>Credit Card Number</th>
+          <th>Exp Month</th>
+          <th>Exp Year</th>
+          <th>Cvv</th>
+          <th>Action</th>
+        </thead>
+        <tbody id="result-data">
+          <!-- <tr>
+            <td>kdjs</td>
+            <td>asdr</td>
+            <td>nafu@mail</td>
+            <td>094837</td>
+            <td>jioew</td>
+            <td>oiqhd</td>
+            <td>oqiwore</td>
+            <td>38743</td>
+            <td>maoihf</td>
+            <td>937763267439</td>
+            <td>12</td>
+            <td>2020</td>
+            <td>721</td>
+            <td>
+              <button id="btn-edit" class="btn btn-outline-primary btn-sm">
+                <i class="far fa-edit"></i>
+              </button>
+              <button id="btn-del" class="btn btn-outline-primary btn-sm">
+                <i class="far fa-trash-alt"></i>
+              </button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+
+    <script src="../Bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="../Bootstrap/js/popper.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Bootstrap/js/all.js"></script>
+    <script src="js/Assiment_7-3.js"></script>
+  </body>
+</html>

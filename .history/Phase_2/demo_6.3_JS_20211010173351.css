@@ -1,0 +1,22 @@
+.wrapper {
+  height: 720px;
+  background-color: #899094;
+}
+.naviga {
+  border-radius: 5px;
+  color: #000000;
+}
+.sz-input {
+  width: 50%;
+}
+img {
+  height: 180px;
+}
+a {
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+}

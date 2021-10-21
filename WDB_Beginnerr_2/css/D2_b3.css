@@ -1,0 +1,62 @@
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    height: 450px;
+    /* background-color: darkkhaki; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.column{
+    width: 32%;
+    height: 100%;
+    /* background-color: gainsboro; */
+}
+.column .area{
+    width: 100%;
+    height: 50%;
+    /* background-color: darkorchid; */
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+    border-radius: 5%;
+}
+.pic img:hover{
+    /* opacity làm mờ. Giá trị từ 0-1 */
+    opacity: 0.5;
+}
+.content{
+    /* background-color: deeppink; */
+}
+.content h3{
+    /* Bỏ margin mặc định */
+    margin: 0;
+    /* Căn chữ ở giữa */
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+.content h3 a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0;
+}
+.content p{
+    margin: 0;
+    text-align: center;
+}
+.content h3 a:hover{
+    color: blueviolet;
+}
+.pic{
+    /* Để đảm bảo border ko lấn ra vùng column, ta sẽ sử dụng box-sizing: ; */
+    box-sizing: border-box;
+    border: 2px solid rgb(122, 106, 103);
+    /* Tạo khoảng trống giữa biên và hình */
+    padding: 0.3em 0.3em;
+    /* Bo hình lại */
+    border-radius: 5%;
+}

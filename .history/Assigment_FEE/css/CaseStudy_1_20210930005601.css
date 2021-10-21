@@ -1,0 +1,19 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 2160px;
+  background-color: khaki;
+}
+.topbar {
+  margin: 0 auto;
+  width: 75%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.topbar.logo {
+  margin: 0 auto;
+  width: 20%;
+  height: 100%;
+  border-radius: 50%;
+}

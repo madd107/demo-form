@@ -1,0 +1,36 @@
+.wrapper {
+  height: 720px;
+  background-color: #bdbdbd;
+}
+.naviga {
+  border-radius: 5px;
+  color: #000000;
+  font-family: KauShan;
+}
+.sz-input {
+  width: 50%;
+}
+img {
+  height: 180px;
+}
+a {
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: KauShan;
+}
+a:hover {
+  text-decoration: none;
+}
+.color-btn {
+  background-color: #ef7998;
+  font-family: KauShan;
+}
+/* Import font chữ */
+@font-face {
+  font-family: KauShan;
+  src: url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+}
+input {
+  font-family: KauShan;
+}

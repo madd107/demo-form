@@ -1,0 +1,17 @@
+.image {
+  width: 100px;
+  height: 200px;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+.count {
+  width: 40px;
+  height: auto;
+  border-radius: 0%;
+  border: 1px solid #17a2b8;
+  font-size: 1rem;
+}

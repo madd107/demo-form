@@ -1,0 +1,60 @@
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+    /* background-color: greenyellow; */
+    flex-wrap: wrap;
+}
+.heading{
+    margin: 0 auto;
+    width: 98%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading p{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.batbuoc{
+    color: red;
+}
+.group-1{
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.group-1 .col-1{
+    width: 49%;
+}
+.group-1 .col-2{
+    width: 49%;
+}
+.group-1 label{
+    display: block;
+    text-transform: capitalize;
+    padding: 0.5em 0;
+}
+.form{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.4em 0 0.4em 1em;
+    color: rgb(9, 53, 4);
+}
+.group-1 .col1{
+    width: 100%;
+}
+.bt-sumbit{
+    background-color: rgb(81, 81, 194);
+    border: none;
+    padding: 0.8em 1.2em;
+    color: white;
+    border-radius: 5px;
+}

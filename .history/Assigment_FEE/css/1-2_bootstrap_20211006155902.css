@@ -1,0 +1,21 @@
+.my-container {
+  background-color: rgb(0, 110, 255);
+}
+.my-row {
+  height: 100%;
+  font-size: 30px;
+  background-color: rgb(127, 204, 255);
+  font-family: monospace;
+}
+.column-1 {
+  height: 75%;
+  background-color: burlywood;
+}
+.column-2 {
+  height: 75%;
+  background-color: rgb(135, 136, 222);
+}
+.column-3 {
+  height: 75%;
+  background-color: rgb(222, 135, 139);
+}

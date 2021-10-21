@@ -1,0 +1,32 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 720px;
+  background-color: rgb(198, 241, 241);
+  position: relative;
+}
+.body {
+  margin: 0 auto;
+  width: 100%;
+  height: 80%;
+  background-color: chartreuse;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.up.left {
+  width: 50%;
+  height: 35%;
+  background-color: chocolate;
+}
+.up.right {
+  width: 45%;
+  height: 35%;
+  background-color: coral;
+}
+.down.left {
+  width: 45%;
+  height: 35%;
+  background-color: cornflowerblue;
+}

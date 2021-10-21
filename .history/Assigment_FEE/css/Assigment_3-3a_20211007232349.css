@@ -1,0 +1,103 @@
+.row-form {
+  height: 85%;
+}
+.row-footer {
+  height: 15%;
+  background-color: rgb(221, 221, 221);
+}
+.col-reset a {
+  color: rgb(151, 151, 151);
+  text-decoration: none;
+}
+.col-cancel {
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(24, 23, 23);
+}
+.row-up {
+  height: 50%;
+}
+.row-down {
+  height: 50%;
+}
+.col-left {
+  height: 100%;
+}
+.col-right {
+  height: 100%;
+}
+.permission {
+  font-size: 20px;
+}
+.select-fix {
+  width: 149.5%;
+  border: 1.5px solid rgb(151, 151, 151);
+}
+.select-fix-x {
+  width: 125%;
+  border: 1.5px solid rgb(151, 151, 151);
+}
+.select-fix-xx {
+  width: 115%;
+  border: 1.5px solid rgb(151, 151, 151);
+}
+.form-fix {
+  margin-top: 1.5rem;
+}
+label {
+  margin-bottom: 0.5em;
+}
+.input-data {
+  width: 118%;
+  height: 40px;
+  padding-left: 1em;
+  border: 1.5px solid rgb(151, 151, 151);
+  border-radius: 0.25rem;
+}
+.fix-col {
+  margin-left: 41px;
+}
+.date {
+  width: 170%;
+  height: 40px;
+  padding: 1em;
+  border: 1.5px solid rgb(151, 151, 151);
+  border-radius: 0.25rem;
+}
+.col-la {
+  width: 1%;
+  margin-left: 9.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.date-x {
+  width: 150%;
+  height: 40px;
+  padding: 1em;
+  border: 1.5px solid rgb(151, 151, 151);
+  border-radius: 0.25rem;
+}
+.row-x {
+  margin-left: 5em;
+}
+.row-xx {
+  margin-left: 2.55em;
+}
+.row-xxx {
+  margin-left: 4.55em;
+}
+.input-data-x {
+  width: 135%;
+  height: 40px;
+  padding-left: 1em;
+  border: 1.5px solid rgb(151, 151, 151);
+  border-radius: 0.25rem;
+}
+.input-data-xx {
+  width: 157%;
+  height: 40px;
+  padding-left: 1em;
+  border: 1.5px solid rgb(151, 151, 151);
+  border-radius: 0.25rem;
+}

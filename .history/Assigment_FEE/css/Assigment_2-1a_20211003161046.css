@@ -1,0 +1,13 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  height: 460px;
+  background-color: rgb(231, 148, 40);
+  display: flex;
+  flex-wrap: wrap;
+}
+.about {
+  margin: 0 auto;
+  width: 25%;
+  height: 100%;
+}

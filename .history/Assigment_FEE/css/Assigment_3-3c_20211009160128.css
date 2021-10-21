@@ -1,0 +1,9 @@
+.row-title {
+  height: 20%;
+}
+.row-title h1 p {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

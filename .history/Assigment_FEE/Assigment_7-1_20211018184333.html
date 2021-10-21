@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../Bootstrap/css/all.css" />
+    <link rel="stylesheet" href="css/Assigment_7-1.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+        <form action="" class="border">
+            <div class="row">
+                <div class="col text-center image">
+                    <img src="../WDB_Beginnerr_2/image/p.jpeg" alt="hinh anh" />
+                </div>
+                <div class="col border-left border-right">
+                    <h4 class="font-weight-light">
+                        Supreme
+                    </h4>
+                    <h1 class="text-danger" id="price">300</h1>
+                    <div>
+                        <p>Số lượng</p>
+                        <div class="input-group form-inline">
+                            <div class="input-group-prepend">
+                                <button type="button" class="btn btn-outline-info" id="minus">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <input type="text" class="form-control-sm count text-center" value="1" id="count"/>
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-outline-info" id="plus">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <small class="error d-none text-danger">Số lượng cần phải mua không được nhỏ hơn 1</small>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h3 class="font-weight-light">Thành tiền</h3>
+                    <h4 class="text-danger" id="total"></h2>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="../Bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="../Bootstrap/js/popper.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Bootstrap/js/all.js"></script>
+    <script src="js/Assigment_7-1.js"></script>
+  </body>
+</html>

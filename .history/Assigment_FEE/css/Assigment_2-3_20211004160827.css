@@ -1,0 +1,11 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  height: 460px;
+  background-color: aquamarine;
+}
+.news {
+  width: 31%;
+  height: 90%;
+  background-color: bisque;
+}

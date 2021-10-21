@@ -1,0 +1,7 @@
+.row-title {
+  height: 20%;
+}
+.row-title h1,
+p {
+  width: 100%;
+}

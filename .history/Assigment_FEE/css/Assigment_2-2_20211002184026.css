@@ -1,0 +1,26 @@
+.main-area {
+  margin: 0 auto;
+  width: 80%;
+  height: 460px;
+  background-color: greenyellow;
+}
+.main-area .slide {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+.slide .pic {
+  width: 100%;
+  height: 100%;
+  background-color: hotpink;
+}
+.slide .content {
+  width: 70%;
+  height: 100%;
+  background-color: indianred;
+}
+.main-area ul .bt {
+  width: 15%;
+  height: 100%;
+  background-color: indigo;
+}

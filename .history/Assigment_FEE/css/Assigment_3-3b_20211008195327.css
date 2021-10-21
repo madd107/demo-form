@@ -1,0 +1,26 @@
+.row-manage {
+  height: 100%;
+  font-size: 25px;
+}
+.sp-1 {
+  color: white;
+}
+.sp-2 {
+  font-weight: bold;
+}
+.row-head {
+  background-color: rgb(61, 98, 129);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.row-del {
+  background-color: rgb(168, 55, 55);
+  height: 50%;
+}
+.button-my {
+  color: white;
+  border-radius: 4px;
+}
+.button-my:hover {
+  color: rgb(212, 211, 211);
+}

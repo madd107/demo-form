@@ -1,0 +1,15 @@
+.row-manage {
+  height: 100%;
+  font-size: 25px;
+}
+.sp-1 {
+  color: white;
+}
+.sp-2 {
+  font-weight: bold;
+}
+.row-head {
+  background-color: rgb(61, 98, 129);
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

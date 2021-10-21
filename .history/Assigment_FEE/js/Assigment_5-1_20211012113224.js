@@ -1,0 +1,12 @@
+var size = prompt("Please enter lenght your array");
+
+function khaiBaoMang() {
+  var arrInt;
+  
+
+  if(len < 8){
+      document.write("The length of the array is too short")
+  } else{
+      for()
+  }
+}

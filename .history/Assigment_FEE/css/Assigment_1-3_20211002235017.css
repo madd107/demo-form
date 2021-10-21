@@ -1,0 +1,118 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 720px;
+  background-color: rgb(198, 241, 241);
+  position: relative;
+}
+.body {
+  margin: 0 auto;
+  width: 100%;
+  height: 80%;
+  /* background-color: chartreuse; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.up.left {
+  margin: auto 0;
+  width: 50%;
+  height: 35%;
+  /* background-color: chocolate; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.up.right {
+  margin: auto 0;
+  width: 45%;
+  height: 35%;
+  /* background-color: coral; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.down.left {
+  margin: auto 0;
+  width: 50%;
+  height: 40%;
+  /* background-color: cornflowerblue; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.down.right {
+  margin: auto 0;
+  width: 45%;
+  height: 40%;
+  /* background-color: cornsilk; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.date {
+  width: 20%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: monospace;
+}
+.date span:nth-child(1) {
+  font-size: x-large;
+  text-transform: uppercase;
+}
+.date span:nth-child(2) {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.content {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+}
+.content h3 {
+  font-weight: bold;
+  font-family: monospace;
+  padding: 0 30px;
+}
+.content p {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 30px;
+}
+.up .date {
+  background-color: rgb(241, 62, 62);
+}
+.down.left .date {
+  background-color: rgb(5, 144, 5);
+}
+.down.right .date {
+  background-color: cornflowerblue;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .right {
+  width: 50%;
+  height: 50px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+}
+.right a {
+  width: 25%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid cornflowerblue;
+  border-radius: 5em;
+  text-decoration: none;
+  color: cornflowerblue;
+}

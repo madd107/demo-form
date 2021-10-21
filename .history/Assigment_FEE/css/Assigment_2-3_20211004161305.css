@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  height: 460px;
+  background-color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.news {
+  margin: auto;
+  width: 31%;
+  height: 90%;
+  background-color: bisque;
+}
+.pic {
+  width: 100%;
+  height: 100%;
+}
+.news img {
+  width: 100%;
+  height: 100%;
+}

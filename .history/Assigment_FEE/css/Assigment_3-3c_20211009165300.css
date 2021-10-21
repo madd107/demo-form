@@ -1,0 +1,16 @@
+.row-title {
+  height: 20%;
+}
+.row-title h1,
+p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(114, 114, 114);
+}
+.row-title h1 {
+  font-weight: bolder;
+}
+.row-card {
+  height: 75%;
+}

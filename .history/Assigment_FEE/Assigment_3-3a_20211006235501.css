@@ -1,0 +1,10 @@
+.row-form {
+  height: 85%;
+}
+.row-footer {
+  height: 15%;
+  background-color: rgb(221, 221, 221);
+}
+.col-reset {
+  background-color: rgb(151, 151, 151);
+}

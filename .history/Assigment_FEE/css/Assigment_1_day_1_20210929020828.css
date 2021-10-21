@@ -1,0 +1,43 @@
+.wrapper {
+  margin: auto 0;
+  width: 100%;
+  height: 100%;
+  background-color: rosybrown;
+}
+.header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header.img {
+  width: 10%;
+  margin: auto -20px;
+  align-items: stretch;
+}
+.header.img img {
+  width: 100%;
+  height: 100%;
+}
+.header.content {
+  width: 90%;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  justify-content: right;
+  font-family: monospace;
+  margin: auto 0;
+  font-weight: lighter;
+  color: #2d3c49;
+}
+p.p1 {
+  font-size: 45px;
+}
+p.p2 {
+  font-size: 25px;
+}
+.line {
+  margin: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #7d97ad;
+}

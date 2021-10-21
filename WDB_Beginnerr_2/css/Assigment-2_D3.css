@@ -1,0 +1,89 @@
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    /* background-color: indianred; */
+    flex-wrap: wrap;
+    background-image: url(../image/pic2.png);
+}
+.heading{
+    margin: 0 auto;
+    width: 98%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading h3{
+    margin: 0;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    color: white;
+    margin-top: 1em;
+}
+.total{
+    width: 85%;
+    height: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 1em;
+    /* background-color: aquamarine; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.group{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.group .col-1{
+    width: 49%;
+}
+.group .col-2{
+    width: 49%;
+}
+.group label{
+    display: block;
+    text-transform: capitalize;
+    padding: 0.5em 0;
+    font-size: small;
+}
+.form{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.4em 0 0.4em 1em;
+    color: rgb(9, 53, 4);
+    border-radius: 4px;
+}
+.group-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* background-color: chocolate; */
+    margin-top: 2em;
+}
+.group-1 input{
+    font-size: small;
+}
+.group-2{
+    width: 100%;
+    height: auto;
+    display: block;
+    /* background-color: chocolate; */
+    text-align: right;
+    margin-top: 2em;
+}
+.group-2 .bt{
+    background-color: chocolate;
+    border: none;
+    padding: 0.8em 1.2em;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-right: 2em;
+}
