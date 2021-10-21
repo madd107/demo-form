@@ -1,9 +1,0 @@
-.wrapper {
-  margin: 0 auto;
-  width: 70%;
-  height: 2160px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: khaki;
-}

@@ -1,8 +1,0 @@
-.wrapper {
-  margin: 0 auto;
-  width: 80%;
-  height: 720px;
-  background-color: rgb(231, 148, 40);
-  display: flex;
-  flex-wrap: wrap;
-}
